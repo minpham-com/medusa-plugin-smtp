@@ -1,18 +1,18 @@
 {
   "name": "medusa-plugin-smtp",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "SMTP transactional emails",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/minpham-com/medusa-plugin-smtp"
   },
-  "author": "Min Pham",
+  "author": "Min",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.20.5",
-    "@babel/node": "^7.20.5",
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-transform-instanceof": "^7.18.9",
     "@babel/plugin-transform-runtime": "^7.19.6",
@@ -33,16 +33,16 @@
     "medusa-interfaces": "^1.x"
   },
   "dependencies": {
-    "@babel/plugin-transform-classes": "^7.20.2",
+    "@babel/plugin-transform-classes": "^7.20.7",
     "body-parser": "^1.20.0",
     "email-templates": "^10.0.1",
     "express": "^4.18.2",
-    "medusa-core-utils": "^1.1.35",
+    "medusa-core-utils": "^1.1.37",
     "medusa-test-utils": "^1.1.37",
     "nodemailer": "^6.8.0"
   },
   "keywords": [
     "medusa-plugin",
-    "medusa-plugin-notification"
+    "medusa-plugin-smtp"
   ]
 }
