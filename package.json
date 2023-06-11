@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-smtp",
-  "version": "1.0.15",
+  "version": "1.2.0",
   "description": "SMTP transactional emails",
   "main": "index.js",
   "repository": {
